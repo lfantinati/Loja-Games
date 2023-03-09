@@ -8,6 +8,10 @@ import org.hibernate.annotations.UpdateTimestamp;
 
 import java.time.LocalDateTime;
 
+
+// MONTAGEM DAS TABELAS NO BANCO DE DADOS
+// NOME DA TABELA
+
 @Entity
 @Table(name = "tb_produto")
 public class Produto {
